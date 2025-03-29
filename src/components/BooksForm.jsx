@@ -28,7 +28,7 @@ const BooksForm = () => {
         event.preventDefault()
 
         try{
-            const response = await fetch("https://hotel-project-backend-git-main-tek-rajs-projects.vercel.app/books", 
+            const response = await fetch("https://book-project-git-main-tek-rajs-projects.vercel.app/books", 
                 {
                     method: "POST",
                     headers: {
